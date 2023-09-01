@@ -87,7 +87,7 @@ limitations under the License.
 
 
 #打aab包命令
-python bundletool.py -i feiji.apk -o test.aab --keystore E:\clm\bangclesigner\qfgame.jks --store_password game12345 --key_alias qfgame --key_password game12345 --apktool C:\Users\Admin\Desktop\build_aab_tool-master\build_aab_tool-master\tools\apktool_2.5.0.jar --aapt2 C:\Users\Admin\Desktop\build_aab_tool-master\build_aab_tool-master\tools\aapt2\Windows\aapt2.exe --android C:\Users\Admin\Desktop\build_aab_tool-master\build_aab_tool-master\tools\android_30.jar --bundletool C:\Users\Admin\Desktop\build_aab_tool-master\build_aab_tool-master\tools\bundletool-all-1.6.1.jar
+python bundletool.py -i feiji.apk -o test.aab --keystore E:\clm\bangclesigner\xxx.jks --store_password xxx --key_alias xxxx --key_password xxxx --apktool C:\Users\Admin\Desktop\build_aab_tool-master\build_aab_tool-master\tools\apktool_2.5.0.jar --aapt2 C:\Users\Admin\Desktop\build_aab_tool-master\build_aab_tool-master\tools\aapt2\Windows\aapt2.exe --android C:\Users\Admin\Desktop\build_aab_tool-master\build_aab_tool-master\tools\android_30.jar --bundletool C:\Users\Admin\Desktop\build_aab_tool-master\build_aab_tool-master\tools\bundletool-all-1.6.1.jar
 
 #把aab包转apks命令
 java -jar C:\Users\Admin\Desktop\build_aab_tool-master\build_aab_tool-master\tools\bundletool-all-1.6.1.jar build-apks --bundle=./output.aab --output=./output.apks
